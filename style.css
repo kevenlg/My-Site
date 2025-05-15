@@ -4,7 +4,7 @@ body {
   font-family: "Press Start 2P", system-ui; /* Fonte retro */
   background-color: #000000; /* vermelho claro */
   color: rgb(161, 161, 161);
-  background-image: url('Recursos/Wallpaper.gif'); /* fundo personalizado opcional */
+  background-image: url('Recursos/Wallpaper3.gif'); /* fundo personalizado opcional */
   background-size: cover;
   background-repeat: repeat;
 }
@@ -109,10 +109,15 @@ header h1 {
 footer {
   background-color: #000000;
   color: #ffffff;
-  padding: 30px;
+  padding: 30px 20px; /* reduzido para não ocupar muito espaço */
   text-align: center;
-  margin-top: 60px;
   font-size: 0.9em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* garante que fique acima de outros elementos */
 }
+
 
 
