@@ -1,0 +1,118 @@
+/* 1. Define estilo base para toda a página */
+body {
+  margin: 0;
+  font-family: "Press Start 2P", system-ui; /* Fonte retro */
+  background-color: #000000; /* vermelho claro */
+  color: rgb(161, 161, 161);
+  background-image: url('Recursos/Wallpaper.gif'); /* fundo personalizado opcional */
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+
+
+.glitch-text {
+      font-family: 'Press Start 2P', cursive; /* estilo pixelado */
+      font-size: 25px;
+      color: rgb(255, 255, 255);
+      position: relative;
+      text-shadow: 
+        2px 2px magenta,
+        -2px -2px cyan;
+    }
+
+
+/* 2. Header com título e avatar */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000cc;
+  border-bottom: 4px solid #ffffff;
+}
+
+header img {
+  width: 80px;
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline;
+  font-size: 2em;
+  margin-left: 20px;
+  color: #fff;
+}
+
+/* 3. Banner com imagem e botões */
+.banner {
+  background-color: #000000;
+  margin: 20px auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  border: 4px double #575757;
+}
+
+.banner img {
+  max-width: 100%;
+  height: 500px;
+  width: 1000px;
+}
+
+.slogan {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Press Start 2P", system-ui;
+  padding: 10px;
+}
+
+.slogan a {
+  text-decoration: none;
+  color: #dbdbdb; /* tom roxo vibrante */
+  font-size: 18px;
+}
+
+.highlight1:hover {
+  color: #fdfdfd;
+}
+
+.highlight2:hover {
+  color: red;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.banner .steam {
+  background-color: #66bb66;
+  color: black;
+}
+
+.banner .trailer {
+  background-color: #dd4444;
+  color: white;
+}
+
+/* 4. Caixa de texto informativa */
+.text-box {
+  background-color: rgb(0, 0, 0);
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border: 2px solid #ffffff;
+  text-align: center;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+/* 5. Rodapé e player */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9em;
+}
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+
+
+    <title>ABOUT MEE!</title>
+</head>
+<body>
+    <main id="Inicio" class="cabecalho">
+            <img src="Recursos/demise-hack.gif" alt="profile-photo" class="profile-photo" id="fugitiva">
+                </div>
+            <h1>Meh</h1>
+            <p class="cabecalho-sub-titulo">WebDeveloper</p>
+    </main>
+    <section class="sobre" id="sobre">
+        <div class="sobre-box">
+                    <h2 class="sobre-titulo">About ME<span class="highlight2">!!</span></h2>
+                            <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                I'm a good developer... That's itt<span class="highlight2">!!</span> <br>:)
+            </p>
+        </div>
+        </div>
+    </section>
+
+<script>
+
+const imagem = document.getElementById('fugitiva');
+
+    imagem.addEventListener('click', () => {
+      imagem.classList.add('fugindo', 'glitch');
+
+      // Remove os efeitos após a animação
+      setTimeout(() => {
+        imagem.classList.remove('fugindo', 'glitch');
+      }, 600);
+    });
+
+</script>
+
+    <section class="projetos" id="projetos">
+        <div class="projetos-caixa">
+            <h2 class="projetos-titulo">Some Projects</h2>
+
+            <div class="projetos-card">
+                <h3 class="info-projetos">No projects published right now ;(</h3>
+                <p class="paragrafo-projetos"></p>
+            </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <form class="formulario-contato" id="formulario">
+
+                <h2 class="contatos-titulo">Contact Me<span class="highlight2">!</span></h2>
+                <div class="contatos-box">
+                    <h2>Discord: <span class="highlight1">toaallthem</span></h2> 
+                </div>
+        </form>
+    </section>
+    
+
+
+
+
+
+
+<link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+<!-- latest -->
+<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+<!-- core style only -->
+<link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </div>
+
+
+<script src="animation.js"></script>
+</body>
+</html>

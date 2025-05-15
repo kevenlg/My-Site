@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+:root {
+    --primaria: #DE00FF;
+    --secundaria: #0000;
+    --escuro: #0CF7F7;
+    --maisEscuro: #00F94B;
+    --claro: #FFFF;
+    --vidro: #FFFF00;
+}
+
+body {
+    background-image:url(Recursos/Wallpaper.gif) ;
+
+}
+
+* {
+    color: white;
+}
+
+.cabecalho {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-photo {
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    border-radius: 50%;
+    border: 4px solid;
+    transition: transform 0.5 ease-in-out;
+    position: relative;
+}
+
+.fugindo {
+    animation: fuga 0.5s steps(5) alternate;
+}
+
+@keyframes fuga {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-20px);}
+    40% { transform: translateX(25px);}
+    60% { transform: translateX(-15px);}
+    80% { transform: translateX(30px);}
+    100% { transform: translateX(0);}
+}
+
+.glitch {
+    animation: glitch-effect 0.3s infinite;
+}
+
+@keyframes glitch-effect {
+  0%   { filter: contrast(2) brightness(1.5) hue-rotate(20deg); transform: translate(0, 0) scale(1); }
+  20%  { transform: translate(-6px, 4px) scale(1.05); }
+  40%  { transform: translate(6px, -5px) scale(0.95); }
+  60%  { transform: translate(-5px, 6px) scale(1.07); }
+  80%  { transform: translate(5px, -4px) scale(1.03); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+.glitch {
+  animation: glitch-effect 0.1s steps(5, end) infinite;
+  filter: contrast(2.5) brightness(1.7) saturate(2);
+  box-shadow:
+    3px 3px rgb(219, 0, 219),
+    -3px -3px #00bfff;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: rgb(0, 217, 255);
+    font-weight: bold;
+    margin: 20px;
+}
+
+.cabecalho-sub-titulo {
+    font-size: 1.5rem;
+    color: #DE00FF;
+}
+
+.sobre {
+    padding: 6rem 2rem;
+}
+
+.sobre-titulo {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre-box {
+            padding:2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+    background: black;
+    border-radius: 16px;
+}
+
+.sobre-caixa {
+    padding:2rem;
+    max-width: 8000px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+    background: black;
+}
+
+.sobre-paragrafo {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.projetos {
+    padding: 6rem 2rem;
+}
+
+.projetos-titulo {
+        text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+
+.projetos-caixa {
+        padding:2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+    background: black;
+    border-radius: 16px;
+}
+
+.projetos-card {
+        padding:2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+    background: black;
+    border-radius: 16px;
+}
+
+
+
+
+.contatos {
+    padding: 6rem 2rem;
+}
+
+ .contatos-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.contatos-box {
+            padding:2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+    background: black;
+    border-radius: 16px;
+}
+
+.formulario-contato{
+    padding:2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+    background: black;
+    border-radius: 16px;
+}
+
+.highlight1:hover {
+  color: #00b7ff;
+}
+
+.highlight2 {
+    color: #FFFF00;
+}
